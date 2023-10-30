@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-color: rgba(0, 255, 255, 0.394);
+width: 100%;
+height: 60vh;
+}
+
+.container{
+    background-color: white;
+    width: 300px;
+    height: 500px;
+
+}
+.container {
+    margin-left: 500px;
+    margin-top: 60px;
+    border-radius: 10px;
+}
+
+.login
+{
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+
+.container form {
+    position: relative;
+    top: 50px;
+    left: 40px;
+}
+
+
+.lable1{
+    font-size: 1rem;
+    text-transform: capitalize;
+    position: relative;
+    top: 10px;
+}
+
+form .username{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin-top: 16px;
+}
+
+.lable2{
+    font-size: 1rem;
+    text-transform: capitalize;
+    position: relative;
+    top: 10px;
+}
+
+form .password{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin-top: 16px;
+}
+.container hr{
+    width: 220px;
+    margin-top: 6px;
+}
+
+.input1 .username::placeholder{
+    text-transform: capitalize;
+}
+
+.input2 .password::placeholder{
+    text-transform: capitalize;
+}
+
+.fp{
+    margin-top: 10px;
+    margin-left: 120px;
+    opacity: 0.77;
+}
+
+
+.btn{
+    margin-top: 20px;
+    font-size: 20px;
+    width: 220px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    padding: 6px ;
+    background:linear-gradient(to left,rgb(234, 93, 116),rgba(31, 13, 190, 0.938)) ;
+
+}
+
+
+.signup1{
+    margin-top: 26px;
+    font-size: 14px;
+    margin-left: 70px;
+    text-transform: capitalize;
+    font-weight: bold;
+
+}
+
+.icons{
+    margin-top: 20px;
+    font-size: 25px;
+    margin-left: 70px;
+
+}
+
+.icons .f{
+    color: blue;
+}
+
+.icons .t{
+    color: rgba(0, 204, 255, 0.955);
+}
+
+.icons .g{
+    color: orangered;
+}
+
+.signup2{
+    font-size: 14px;
+    margin-top: 40px;
+    margin-left: 55px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+
+#signup{
+    margin-top: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: 80px;
+    font-weight: 400;
+}
